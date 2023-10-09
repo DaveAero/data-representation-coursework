@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<library> 
+    <Catalogue category="Cookery">
+        <Book>
+            <ISBN>9780718154776</ISBN> 
+            <Title>Jamie's 30-minute meals</Title> 
+            <Author>Jamie Oliver</Author>
+        </Book>
+        <Book>
+            <ISBN>9781419732454</ISBN> 
+            <Title>Matty Matheson: A Cookbook</Title> 
+            <Author>Matty Matheson</Author>
+        </Book>
+    </Catalogue>
+
+    <Catalogue category="Technical"> 
+        <Book>
+            <ISBN>9780008196806</ISBN> 
+            <Title>How to build a car</Title> 
+            <Author>Adrian Newey</Author>
+        </Book>
+        <Book>
+            <ISBN>9781593275990</ISBN> 
+            <Title>Automate the boring stuff with python</Title> 
+            <Author>Albert Sweigart</Author>
+        </Book>
+    </Catalogue>
+</library>
