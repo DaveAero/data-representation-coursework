@@ -16,6 +16,6 @@ response = requests.get(url, auth = ('token', apikey))
 print (response.status_code)
 #print (response.json())
 
-with  open(filename, 'w') as fp:
+with open(filename, 'w') as fp:
     repoJSON = response.json()
     json.dump(repoJSON, fp, indent=4)

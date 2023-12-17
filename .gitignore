@@ -1,7 +1,10 @@
 # my blocked files
 labs/config.py
+assignments/config.py
 labs/trainxml.xml
 labs/week03_train.csv
+labs/repos-private.json
+labs/repos-public.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
