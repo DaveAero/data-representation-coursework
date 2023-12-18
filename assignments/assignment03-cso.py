@@ -1,10 +1,13 @@
 import requests
+import json
 
 url = "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/FIQ02/JSON-stat/1.0/en"
 
-def getAllBooks():
-    response = requests.get(url)
-    return response.json()
+fileName = "cso.json"
 
-if __name__ == "__main__":
-    print(getAllBooks())
+
+response = requests.get(url)
+
+with open(fileName, 'w') as fp:
+    repoJSON = response.json()
+    json.dump(repoJSON, fp, indent=4)
